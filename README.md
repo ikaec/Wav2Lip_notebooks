@@ -10,7 +10,7 @@ Code and resources for multilingual lip-sync video generation.
   7. Use the new audio and original video to perform lipsyn
 
   ##  A -  Using the api_key:
-  - This was successful with unpaid and later with paid plan. The paid plan then rejected further video generation.
+  - This was successful with unpaid and later with paid plan. The paid plan then rejected further video generation. I then generated a new key which worked and you can see the output in the shared colab.
       - The demo is as in the notebook: French_to_English_LipSync_Uncrooped.ipynb, the notebook was run on colab.
       - Link to the tested video:  https://www.youtube.com/watch?v=32NNOzC_BAA&ab_channel=BFHTechnikundInformatik
       - The generated video output could not be uploaded here since it was too big.
