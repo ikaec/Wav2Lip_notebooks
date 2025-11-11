@@ -13,3 +13,9 @@ Code and resources for multilingual lip-sync video generation.
   - This was successful with unpaid and later with paid plan. The paid plan then rejected further video generation.
       - The demo is as in the notebook: French_to_English_LipSync_Uncrooped.ipynb
       - Link to the tested video:  https://www.youtube.com/watch?v=32NNOzC_BAA&ab_channel=BFHTechnikundInformatik
+      - The generated video output could not be uploaded here since it was too big.
+
+     ##  B - Clonining a Wav2Lip git
+    - clone https://github.com/Rudrabha/Wav2Lip.git
+    - This approach has been described but has not worked with this video example.
+    - The error has always been lack of face in some fraame.
