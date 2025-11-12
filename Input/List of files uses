@@ -1,0 +1,4 @@
+Files already processed used in the last cell are:
+- French_vid_h264.mp4: The video with the French sound muted
+- French_vid_dub_en_16k_1.wav: The cloned voice using the translated french to English text
+With these already prepared files, all that is requuired is running the last colab cell
