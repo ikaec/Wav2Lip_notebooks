@@ -7,7 +7,7 @@ Code and resources for multilingual lip-sync video generation.
   4. Create and audio using the translated text and clon the voice from the original video
   5. Standadize the audio and video and upload to google drive
   6. Upload the links of the files fron google drive
-  7. Use the new audio and original video to perform lipsyn
+  7. Use the new audio and original video to perform lipsync
 
   ##  A -  Using the api_key:
   - This was successful with unpaid and later with paid plan. The paid plan then rejected further video generation. I then generated a new key which worked and you can see the output in the shared colab.
@@ -20,3 +20,8 @@ Code and resources for multilingual lip-sync video generation.
   - clone https://github.com/Rudrabha/Wav2Lip.git
   - This approach has been described but has not worked with this video example.
   - The error has always been lack of face in some fraame.
+
+ ##  C - The results directory 
+ - Contains generated lipsynced videos
+    - The one using example from the repository looks good because the face covers most of the screan and no empty frames and shoter too.
+    - The one with our prepared data: Has a longer audio so the audio continues. It also has audio in regions where the frames have no face yet the original, these frames had a sound with a slide show.
