@@ -13,7 +13,7 @@ Code and resources for multilingual lip-sync video generation.
   - This was successful with unpaid and later with paid plan. The paid plan then rejected further video generation. I then generated a new key which worked and you can see the output in the shared colab.
       - The demo is as in the notebook: French_to_English_LipSync_Uncrooped.ipynb, the notebook was run on colab.
       - Link to the tested video:  https://www.youtube.com/watch?v=32NNOzC_BAA&ab_channel=BFHTechnikundInformatik
-      - The generated video output could not be uploaded here since it was too big.
+      - The generated video output is in  _results_ .
       - Link to the generated file: https://private-sync-user-generations-v2.s3.amazonaws.com/generations/a8a9070b-ebdc-4788-a12f-dd32517d92c1/1f5122bb-dc1b-4ce1-a4c0-1fa1c0c3914c/french_to_en_lipsynced.mp4
 
   ##  B - Clonining a Wav2Lip git
