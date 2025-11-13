@@ -23,5 +23,5 @@ Code and resources for multilingual lip-sync video generation.
 
  ##  C - The results directory 
  - Contains generated lipsynced videos
-    - The one using example from the repository looks good because the face covers most of the screan and no empty frames and shoter too.
+    - The one using example from the repository looks good because the face covers most of the frame at all times and no empty frames. It is also shoter.
     - The one with our prepared data: Has a longer audio so the audio continues. It also has audio in regions where the frames have no face yet the original, these frames had a sound with a slide show.
