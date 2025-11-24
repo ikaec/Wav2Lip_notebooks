@@ -21,9 +21,9 @@ Code and resources for multilingual lip-sync video generation.
   - This approach has been described but has not worked with this video example.
   - The error has always been lack of face in some fraame.
     ##  B.1 - By trimming out slides without the face
-            - I was able to work with a smaller video (trimmed from the original)
-            - This led to an output result video
-            - But the output is not as clear as the ones generated with the (key version)
+    - I was able to work with a smaller video (trimmed from the original)
+    - This led to an output result video
+    - But the output is not as clear as the ones generated with the (key version)
     ##  B.2 - Using the full video, all processes remain the same but Wav2lip crashes with the errors shown:
     - raise ValueError('Face not detected! Ensure the video contains a face in all the frames.')
     - ValueError: Face not detected! Ensure the video contains a face in all the frames.
