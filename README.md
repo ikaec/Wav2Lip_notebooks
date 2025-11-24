@@ -24,6 +24,10 @@ Code and resources for multilingual lip-sync video generation.
             - I was able to work with a smaller video (trimmed from the original)
             - This led to an output result video
             - But the output is not as clear as the ones generated with the (key version)
+    ##  B.2 - Using the full video, all processes remain the same but Wav2lip crashes with the errors shown:
+    - raise ValueError('Face not detected! Ensure the video contains a face in all the frames.')
+    - ValueError: Face not detected! Ensure the video contains a face in all the frames.
+
  ##  C - The results directory 
  - Contains generated lipsynced videos
     - The one using example from the repository looks good because the face covers most of the frame at all times and no empty frames. It is also shoter.
