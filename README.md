@@ -27,6 +27,7 @@ Code and resources for multilingual lip-sync video generation.
     ##  B.2 - Using the full video, all processes remain the same but Wav2lip crashes with the errors shown:
     - raise ValueError('Face not detected! Ensure the video contains a face in all the frames.')
     - ValueError: Face not detected! Ensure the video contains a face in all the frames.
+    - After preventing FaceDetect from crashing, the audio continues across the slide frames. The audio needs to be split into chunks so that each slide/frame has its corresponding audio segment.
 
  ##  C - The results directory 
  - Contains generated lipsynced videos
