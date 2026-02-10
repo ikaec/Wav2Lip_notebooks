@@ -21,12 +21,12 @@ Code and resources for multilingual lip-sync video generation.
   - This approach has been described but has not worked with this video example.
   - The error has always been lack of face in some frames.
   - The code that does not use api_key EN_DE_FR_LanguageAware_LipSync_ipynb_3
-  - input for the code is trimmed_input.mp4 found in the results directory
-  - output is trimmed_result.mp4 found in the results directory
+  - input for the code is **trimmed_input.mp4** found in the results directory
+  - output is **trimmed_result.mp4** found in the results directory
 
     ##  B.1 - By trimming out slides without the face
-    - I was able to work with a smaller video (trimmed from the original)
-    - This led to an output result video
+    - I was able to work with a smaller video **trimmed_input.mp4** (trimmed from the original)
+    - This led to an output result video **trimmed_result.mp4** 
     - But the output is not as clear as the ones generated with the (api_key version)
     - The solution:- post processing which improved the sharpness of the generated video.
     ##  B.2 - Using the full video, all processes remain the same but Wav2lip crashes with the errors shown:
