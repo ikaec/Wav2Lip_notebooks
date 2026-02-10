@@ -20,6 +20,10 @@ Code and resources for multilingual lip-sync video generation.
   - clone https://github.com/Rudrabha/Wav2Lip.git
   - This approach has been described but has not worked with this video example.
   - The error has always been lack of face in some frames.
+  - The code that does not use api_key EN_DE_FR_LanguageAware_LipSync_ipynb_3
+  - input for the code is trimmed_input.mp4 found in the results directory
+  - output is trimmed_result.mp4 found in the results directory
+
     ##  B.1 - By trimming out slides without the face
     - I was able to work with a smaller video (trimmed from the original)
     - This led to an output result video
